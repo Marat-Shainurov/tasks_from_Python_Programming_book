@@ -35,6 +35,7 @@ def my_sum(a: list, b: list):
     else:
         return 0
 
+
 # or a shorter version via zip() method
 
 
@@ -78,6 +79,7 @@ def show_text(text, *nums):
         except IndexError:
             return "No needed index in the text"
     return "".join(res)
+
 
 # or a shorter version via list comprehensions
 
@@ -139,7 +141,6 @@ mon = show_months()
 
 for month in show_months():
     print(month, end=" ")
-
 
 
 # Get a function-generator, which creates an iterable object of 2**n,
