@@ -81,13 +81,13 @@ def get_copy_with_numerated_lines():
 # Get a program, which creates a file, with the file's name inputted from the user.
 # Text to the file is inputted by the user, where all the lowercase letters are changed to uppercase.
 
-file_name = input("Input the file's name: ")
-user_text_line_1 = input("Input the text: ")
-user_text_line_2 = input("Input the text: ")
-
-with open(file_name, "w") as file:
-    file.write(user_text_line_1.lower() + "\n")
-    file.write(user_text_line_2.lower() + "\n")
-    file.write("bye")
+# file_name = input("Input the file's name: ")
+# user_text_line_1 = input("Input the text: ")
+# user_text_line_2 = input("Input the text: ")
+#
+# with open(file_name, "w") as file:
+#     file.write(user_text_line_1.lower() + "\n")
+#     file.write(user_text_line_2.lower() + "\n")
+#     file.write("bye")
 
 
