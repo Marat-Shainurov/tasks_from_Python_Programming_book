@@ -125,7 +125,7 @@ class FifthClass:
 
 # Create a class, with a special mode of accessing to its objects. Each object has to have a list field the value of
 # which could be assigned the list type only. From the list being assigned only literals are appended to the field.
-# When the field's value is read the firs letters of each element should be returned.
+# When the field's value is read the first letters of each element should be returned.
 
 class SixthClass:
 
